@@ -1,5 +1,8 @@
 import { House } from "./House";
 
 export class Chair {
-    constructor(private chairId: string, private house: House) { }
+    public chairID: string
+    constructor(chairID: string, house: House) {
+        this.chairID = chairID;
+    }
 }
