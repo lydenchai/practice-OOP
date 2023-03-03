@@ -8,7 +8,7 @@ export class Library {
     constructor(private name: string, private address: string) { }
 
     addBook(...newBook: any) {
-        this.books = this.books.concat(newBook);;
+        this.books = this.books.concat(newBook);
     }
 
     // Get book from author
